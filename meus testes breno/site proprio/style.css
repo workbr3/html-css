@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Olondon_';
+    src: url('font/Olondon_.otf')format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --color0:#164670;
+    --color1:#004C94;
+    --color2:#3093F0;
+    --color3:#FAD213;
+
+    --fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque:'Olondon_','cursive'
+
+}
+
+body{
+    background-color: rgb(154, 154, 154);
+}
+    header{
+        background-image: linear-gradient(to bottom, var(--color0),var(--color2));
+        padding: 5px;
+        border-radius: 4px;
+    }
+    header >h1{
+        font-size: 3em;
+        text-align: center;
+        color:#FAD213 ;
+        font-family:var(--fonte-destaque)
+    }
+   
+    
+    nav{
+        background-color: #3093F0;
+        padding: 10px;
+        margin-top: 2px;
+        border-radius: 4px;
+    }
+    nav > a{
+        font-family: var(--fonte-padrao);
+        color: white;
+        text-decoration: none;
+        background-color: grey;
+        padding: 4px;
+        border-radius: 1px;
+    }
+    nav a:hover{
+        color: #FAD213;
+        transition: 0.5s;
+        
+    }
+
+    main{
+        padding: 20px 30px 20px 30px;
+        
+    }
+
+    main > article{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    main > h1{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+        background-image: linear-gradient(to bottom, var(--color0),var(--color2));
+        padding: 1px;
+        border-radius: 4px;
+        padding-top: 1px;
+        margin: 1px;
+        
+
+    }
+    footer{
+        background-color:#004C94;
+        color: white;
+        border: 5px;
+        padding: 10px;
+    }
+    

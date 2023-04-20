@@ -1,0 +1,89 @@
+<br> quebra a linha
+
+Ctrl+ backspace apara add img
+
+cód lorem cria um subtexto
+
+atl+shift+F = identação
+
+<strong> negrito
+<em> Itálico
+<p> parágrafo
+<!-- cria uma anotação
+
+para add ICO cria acima do title: link favicon( é necessário ter o ico na pasta)
+
+Crtl+Shift+P para envelopar
+a:visited pseudo classe para links visitados
+
+<mark> serve para marcar texto
+<adress> para indicar endereço
+<small> deixa o texto menor
+<del> indica que o texto ainda podw ser lido mas deve ser desconsiderado pelo leitor
+<ins> sublinhar o texto
+<sub> para add H20
+<sup> para X2 (ao quadrado)
+<code> para textos de códigos
+<pre> para pré-formatar o código
+<q> para add áspas a frase
+<ol> ordem list  podemos por entrr a tag <ol  type que me da opção de numerar de formas diferentes
+<li> onrdena uma sequência
+<dt>termo
+<dd> descrição
+<source media> para dd imagens de tamanhos diferentes, vamos por max no lugar de minimo, navegador 1000x1000   tablet 700x700  celular 300x300
+<audio src="midia/indux.mp3" controls autoplay></audio> 
+background-image: linear-gradient(to right) degradê
+
+taget_blank  para abrir uma guia extra do link usar após as " do href:
+
+exemplo:
+
+a::anfter
+a::before
+
+
+px ou em para tamanho de fontes
+
+font-weight: peso da fonte (lighter,normal,bold,bolder)
+
+font-style: italic;
+
+text-decoration: underline (sublinhado)
+
+width: largura
+
+height: altura
+
+shorthand font (literalmente dar uma mãozinha rsrsrs)
+
+font-style -> font-weight->font-size-> font-family
+
+TIPOS DE FORMATOS FONTES EXTERNAS
+
+OPENTYPE= OTF
+TRUETYPE= TTF
+EMBEDDED-OPENTYPE
+TRUETYPE-ATT (Apple Advanced Typography)
+SVG
+
+text-indent serve para dar o espaço inicial do parágrafo 
+div:hover muda a cor quando eu passo o mouse p cima da pág
+
+
+
+
+                                                                             ****BOX-LEVEL****
+
+
+                                                                         <DIV>
+                                                                        
+<H1>-<H6>
+<P>
+<MAIN>
+<HEADER>
+<NAV>
+<ARTICLE>
+<ASIDE>
+<FOOTER>
+<FORM>
+<VIDEO>
