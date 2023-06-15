@@ -8,26 +8,50 @@
     <style>
         body{
             height: 97vh;
+            /*
             background-color: black;
             background-image:url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;/*
+
+            /*
+            Shorthand- background
+            color> image> position> repeat> [size] > attachement
+            até o momento background-size não funciona na short, mas segundo o w3c afirma que aceita.
+            
+            
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
-            border: 1px solid darkblue;
+            border: 3px solid rgb(6, 6, 102);
             border-radius: 5px;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, rerum tempore. Pariatur corrupti ea cum labore inventore perferendis veniam numquam vitae repellendus optio nam, corporis voluptates tempora, odio accusantium eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat expedita officiis, nemo ipsam, soluta qui ut inventore, iure natus sunt consequuntur est! Hic non incidunt sapiente eius voluptate, itaque ipsa.</p>
+        <h1>Teste de Imagem de Fundo </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, rerum tempore. Pariatur corrupti ea cum labore inventore perferendis veniam numquam vitae repellendus optio nam, corporis voluptates tempora, odio accusantium eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat expedita officiis, nemo ipsam, soluta qui ut inventore, iure natus sunt consequuntur est! Hic non incidunt sapiente eius voluptate, itaque ipsa.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi earum rerum nulla voluptas libero voluptatem exercitationem. Nihil mollitia inventore cupiditate. Culpa et modi eius iure consequatur impedit vitae repellendus quae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero animi saepe dolore eligendi. Labore exercitationem fugiat magni pariatur veniam impedit ipsam sunt, accusantium consequatur vero excepturi iure voluptatum ipsum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, perspiciatis voluptatibus dignissimos iure veritatis! Autem enim modi nulla cum, corrupti officia? Aspernatur laborum ipsum quos eligendi ipsam porro reprehenderit Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia voluptatem nihil, ratione temporibus inventore enim itaque nobis sint doloribus rerum, quas aspernatur fugit labore doloremque molestiae ipsum fuga officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolorum laborum nulla consectetur eius ullam. Quia vel ipsum, numquam natus error, laborum, voluptatibus enim impedit distinctio officiis ad placeat ex. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem consectetur, voluptatibus omnis reiciendis odit minus! Omnis voluptas hic ea doloremque labore eius consequatur ratione necessitatibus? Eius repellat corporis esse dolore.
+        </p>
     </main>
 </body>
 </html>
